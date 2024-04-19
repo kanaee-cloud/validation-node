@@ -16,7 +16,7 @@ function Login() {
   }
   const handleSubmit = (event) =>{
     event.preventDefault();
-    setErrors(Validation(values))
+    setErrors(Validation(values));
   }
 
   return (
