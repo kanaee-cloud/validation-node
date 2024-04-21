@@ -6,6 +6,7 @@ import Video from "./assets/background.mp4";
 import Login from "./component/Login";
 import Signup from "./component/Signup";
 import Start from "./Start";
+import Home from "./component/Home";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Start />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
+          <Route path="/home" element={<Home />}></Route>
         </Routes>
       </BrowserRouter>
     </>
